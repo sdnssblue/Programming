@@ -10,6 +10,9 @@
         Red,
         Green,
         Blue,
-        Yellow
+        Yellow,
+        Purple,
+        Brown,
+        Pink
     }
 }

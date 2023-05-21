@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>View</AssemblyName>
+    <RootNamespace>View</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="contacts_96x96.ico" />
+    <None Remove="photo_placeholder_100x100.png" />
+    <None Remove="Resources\Images\photo_placeholder_100x100.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\contacts_96x96.ico" />
+    <Resource Include="Resources\Images\photo_placeholder_100x100.png" />
+  </ItemGroup>
+
+</Project>
